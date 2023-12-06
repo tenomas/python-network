@@ -1,7 +1,6 @@
 from select import select
 from socket import *
 from socket import *
-
 sock_list = []
 sock = socket()
 sock.setsockopt(SOL_SOCKET, SO_REUSEADDR,1)
